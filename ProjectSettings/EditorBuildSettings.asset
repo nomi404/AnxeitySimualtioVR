@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 55daccc09a3b69647bbab145b54a3ab3
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Classroom.unity
+    guid: 9efc466b3d5c8074ebc4efc451ed66a2
+  - enabled: 1
+    path: Assets/Scenes/ClassroomSpeechMale.unity
+    guid: 06d40f4263d7fd54f86a2aeec68a833e
+  - enabled: 1
+    path: Assets/Scenes/ClassroomSpeechFemale.unity
+    guid: 163d296a033227b47ab780e2d3f6fbeb
+  - enabled: 1
+    path: Assets/Scenes/cafe.unity
+    guid: 4656e8e2916a59645a01c7e558f825fe
+  - enabled: 1
+    path: Assets/Scenes/cafemale1.unity
+    guid: 10128c727167df645ac2c16809eb043a
+  - enabled: 1
+    path: Assets/Scenes/cafemale2.unity
+    guid: 12b9f54f8ba669b42a29ae15cef32805
+  - enabled: 1
+    path: Assets/Scenes/cafefemale1.unity
+    guid: fb6675c0eac33bf4ca4d0b925797812c
+  - enabled: 1
+    path: Assets/Scenes/cafefemale2.unity
+    guid: 5ee3bd40a0fcc4042b8302bfc731364b
+  - enabled: 1
+    path: Assets/Scenes/feedback.unity
+    guid: 2f92d9ac583ade84080ebfed00ff7dd8
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 9bec1ce6a03ccba4b9a8215241b32e63, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: a49cadc1a815591479693b955ccf08c1, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 985fdffee33a5944396199c6b7145dd4, type: 3}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1a4c68ca72a83449f938d669337cb305, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: a9a6963505ddf7f4d886008c6dc86122, type: 2}
+  m_UseUCBPForAssetBundles: 0
