@@ -1503,7 +1503,7 @@
                     "name": "Select",
                     "type": "Button",
                     "id": "ac96c10b-c955-4a46-8e67-bf16bc069b53",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -2761,6 +2761,34 @@
                     "action": "Spawn Object",
                     "isComposite": false,
                     "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "MenuButton",
+            "id": "2d3ab794-3960-4ea5-bbaa-e168553caf8f",
+            "actions": [
+                {
+                    "name": "MenuButton2",
+                    "type": "Button",
+                    "id": "25beb87b-0dab-48d8-ba9c-7811b4df9c23",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8912226b-5c71-438e-804f-be5045463287",
+                    "path": "<XRController>{RightHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MenuButton2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }

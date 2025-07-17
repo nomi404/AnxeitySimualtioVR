@@ -94,21 +94,26 @@ public class SittingScenario : MonoBehaviour
         float duration = 2f;
         float t = 0;
 
+        // Maximum intensities (you can tweak further)
+        float maxVignette = 0.8f;         // was 0.5f
+        float maxChromatic = 0.8f;        // was 0.5f
+        float maxLensDistortion = -0.7f;  // was -0.4f
+
         // Fade-in effects
         while (t < duration)
         {
             t += Time.deltaTime;
-            float intensity = Mathf.Lerp(0f, 0.5f, t / duration);
-            vignette.intensity.Override(intensity);
-            chromatic.intensity.Override(intensity);
-            lensDistortion.intensity.Override(Mathf.Lerp(0f, -0.4f, t / duration));
+            float lerpFactor = t / duration;
+
+            vignette.intensity.Override(Mathf.Lerp(0f, maxVignette, lerpFactor));
+            chromatic.intensity.Override(Mathf.Lerp(0f, maxChromatic, lerpFactor));
+            lensDistortion.intensity.Override(Mathf.Lerp(0f, maxLensDistortion, lerpFactor));
+
             yield return null;
         }
-
-        // KEEP EFFECTS ON (do not fade out)
     }
 
-    IEnumerator PlayWhispers()
+        IEnumerator PlayWhispers()
     {
         foreach (var clip in whisperClips)
         {
